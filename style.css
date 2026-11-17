@@ -1,0 +1,120 @@
+:root {
+    --color-pine: #1b4332;
+    --color-leaf: #2d6a4f;
+    --color-soft-yellow: #fefae0;
+    --color-cta: #e07a5f;
+    --color-cta-hover: #d06548;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #212529;
+    overflow-x: hidden;
+}
+
+.bg-pine {
+    background-color: var(--color-pine) !important;
+}
+
+.text-pine {
+    color: var(--color-pine) !important;
+}
+
+.border-pine {
+    border-color: var(--color-pine) !important;
+}
+
+.bg-leaf {
+    background-color: var(--color-leaf) !important;
+}
+
+.text-leaf {
+    color: var(--color-leaf) !important;
+}
+
+.bg-soft-yellow {
+    background-color: var(--color-soft-yellow) !important;
+}
+
+.text-light-yellow {
+    color: #faedcd !important;
+}
+
+.btn-cta {
+    background-color: var(--color-cta);
+    border-color: var(--color-cta);
+    color: #ffffff;
+    transition: all 0.25s ease;
+}
+
+.btn-cta:hover, .btn-cta:focus {
+    background-color: var(--color-cta-hover);
+    border-color: var(--color-cta-hover);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.btn-pine {
+    background-color: var(--color-pine);
+    border-color: var(--color-pine);
+    color: #ffffff;
+}
+
+.btn-pine:hover {
+    background-color: var(--color-leaf);
+    color: #ffffff;
+}
+
+.btn-outline-pine {
+    color: var(--color-pine);
+    border-color: var(--color-pine);
+    background-color: #ffffff;
+}
+
+.btn-outline-pine:hover, .btn-outline-pine.active {
+    background-color: var(--color-pine);
+    color: #ffffff;
+}
+
+.hero-img {
+    height: 75vh;
+    min-height: 420px;
+    max-height: 680px;
+    object-fit: cover;
+    filter: brightness(0.68);
+}
+
+.text-shadow {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
+}
+
+.hover-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.hover-card:hover, .hover-card:focus-within {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(27, 67, 50, 0.15) !important;
+}
+
+.card-img-top-fixed {
+    height: 210px;
+    object-fit: cover;
+}
+
+.nav-pills .nav-link {
+    color: var(--color-pine);
+    font-weight: 600;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--color-pine);
+    color: #ffffff;
+}
