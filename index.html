@@ -10,34 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        /* CSS dự phòng đảm bảo giao diện luôn hiển thị chuẩn dù đặt file ở đâu */
-        :root {
-            --color-pine: #1b4332;
-            --color-leaf: #2d6a4f;
-            --color-soft-yellow: #fefae0;
-            --color-cta: #e07a5f;
-            --color-cta-hover: #d06548;
-        }
-        .bg-pine { background-color: var(--color-pine) !important; }
-        .text-pine { color: var(--color-pine) !important; }
-        .border-pine { border-color: var(--color-pine) !important; }
-        .bg-leaf { background-color: var(--color-leaf) !important; }
-        .text-leaf { color: var(--color-leaf) !important; }
-        .bg-soft-yellow { background-color: var(--color-soft-yellow) !important; }
-        .text-light-yellow { color: #faedcd !important; }
-        .btn-cta { background-color: var(--color-cta); border-color: var(--color-cta); color: #fff; }
-        .btn-cta:hover { background-color: var(--color-cta-hover); border-color: var(--color-cta-hover); color: #fff; }
-        .btn-pine { background-color: var(--color-pine); border-color: var(--color-pine); color: #fff; }
-        .btn-pine:hover { background-color: var(--color-leaf); color: #fff; }
-        .btn-outline-pine { color: var(--color-pine); border-color: var(--color-pine); background-color: #fff; }
-        .btn-outline-pine:hover, .btn-outline-pine.active { background-color: var(--color-pine); color: #fff; }
-        .hero-img { height: 75vh; min-height: 420px; max-height: 680px; object-fit: cover; filter: brightness(0.68); }
-        .text-shadow { text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65); }
-        .hover-card { transition: transform 0.25s ease, box-shadow 0.25s ease; cursor: pointer; }
-        .hover-card:hover { transform: translateY(-6px); box-shadow: 0 12px 24px rgba(27, 67, 50, 0.15) !important; }
-        .card-img-top-fixed { height: 210px; object-fit: cover; }
-    </style>
+    
 </head>
 <body>
 
@@ -84,7 +57,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1600&q=80" class="d-block w-100 hero-img" alt="Toàn cảnh thành phố Đà Lạt sương mù">
+                        <img src="images/lam_dong_thuoc_mien_nao_830fad1fb6.webp" class="d-block w-100 hero-img" alt="Toàn cảnh thành phố Đà Lạt sương mù">
                         <div class="carousel-caption d-flex flex-column justify-content-center h-100">
                             <h1 class="display-4 fw-bold text-white text-shadow">Chào Mừng Đến Với Lâm Đồng</h1>
                             <p class="lead text-light-yellow fw-medium text-shadow">Xứ sở ngàn hoa, rừng thông bạt ngàn và bản sắc văn hóa Tây Nguyên</p>
@@ -94,7 +67,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1600&q=80" class="d-block w-100 hero-img" alt="Đồi chè xanh mướt tại Bảo Lộc Lâm Đồng">
+                        <img src="images/images (8).jpg" class="d-block w-100 hero-img" alt="Đồi chè xanh mướt tại Bảo Lộc Lâm Đồng">
                         <div class="carousel-caption d-flex flex-column justify-content-center h-100">
                             <h2 class="display-4 fw-bold text-white text-shadow">Hương Trà Bảo Lộc & Thiên Nhiên Hùng Vĩ</h2>
                             <p class="lead text-light-yellow fw-medium text-shadow">Trải nghiệm không khí trong lành và những đồi chè xanh ngát</p>
@@ -104,7 +77,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80" class="d-block w-100 hero-img" alt="Ẩm thực đặc trưng vùng cao nguyên">
+                        <img src="images/images (9).jpg" class="d-block w-100 hero-img" alt="Ẩm thực đặc trưng vùng cao nguyên">
                         <div class="carousel-caption d-flex flex-column justify-content-center h-100">
                             <h2 class="display-4 fw-bold text-white text-shadow">Tinh Hoa Ẩm Thực Cao Nguyên</h2>
                             <p class="lead text-light-yellow fw-medium text-shadow">Thưởng thức hương vị ấm áp giữa tiết trời se lạnh</p>
@@ -464,67 +437,7 @@
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 
-    <!-- Script dự phòng hiển thị thẻ nếu file js/script.js chưa được tải -->
-    <script>
-        if (typeof siteData === 'undefined') {
-            const fallbackData = [
-                { id: "dd-1", section: "destination", title: "Hồ Xuân Hương", category: "Thiên nhiên", location: "Trung tâm TP. Đà Lạt", shortDesc: "Trái tim xanh thơ mộng giữa lòng thành phố ngàn hoa với hàng thông và vườn hoa bao quanh.", fullDesc: "Hồ Xuân Hương là hồ nhân tạo rộng khoảng 32 ha nằm ngay trung tâm thành phố Đà Lạt. Đây là địa điểm lý tưởng để tản bộ, đạp vịt và ngắm hoàng hôn.", image: "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Giờ mở cửa: Tự do cả ngày", "Chi phí: Miễn phí tham quan", "Nguồn: Cổng TTĐT Đà Lạt (11/2026)"] },
-                { id: "dd-2", section: "destination", title: "Ga Đà Lạt Cổ", category: "Kiến trúc", location: "Phường 10, TP. Đà Lạt", shortDesc: "Nhà ga xe lửa cổ kính nhất Đông Dương với kiến trúc ba mái chóp mô phỏng đỉnh Langbiang.", fullDesc: "Được xây dựng từ năm 1932 bởi kiến trúc sư người Pháp, Ga Đà Lạt mang đậm dấu ấn kiến trúc Art Deco kết hợp nhà rông Tây Nguyên.", image: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Giờ mở cửa: 07:30 - 17:00", "Giá vé: 5.000đ - 50.000đ", "Nguồn: Di tích Kiến trúc Quốc gia"] },
-                { id: "dd-3", section: "destination", title: "Thác Dambri Bảo Lộc", category: "Sinh thái", location: "TP. Bảo Lộc, Lâm Đồng", shortDesc: "Ngọn thác hùng vĩ cao hơn 60m ẩn mình giữa khu rừng nguyên sinh xanh mát.", fullDesc: "Khu du lịch sinh thái Thác Dambri nổi bật với dòng thác trắng xóa đổ từ độ cao 60m giữa rừng nguyên sinh.", image: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Giờ mở cửa: 07:00 - 17:00", "Cách Bảo Lộc 18km", "Nguồn: KDL Sinh thái Dambri"] },
-                { id: "dd-4", section: "destination", title: "Đỉnh Núi Langbiang", category: "Trải nghiệm", location: "Huyện Lạc Dương, Lâm Đồng", shortDesc: "Nóc nhà của Đà Lạt với trải nghiệm đi xe jeep, săn mây và ngắm toàn cảnh Suối Vàng.", fullDesc: "Langbiang cao 2.167m là điểm trekking, săn mây và ngắm toàn cảnh cao nguyên Lâm Viên tuyệt đẹp.", image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Độ cao: 2.167m", "Hoạt động: Xe jeep, trekking, cồng chiêng", "Nguồn: Khu DTSQ Langbiang"] },
-                { id: "lh-1", section: "festival", title: "Festival Hoa Đà Lạt", category: "Lễ hội văn hóa", location: "TP. Đà Lạt & Bảo Lộc", shortDesc: "Sự kiện văn hóa - du lịch lớn nhất tỉnh tôn vinh nghề trồng hoa và trà truyền thống.", fullDesc: "Festival Hoa Đà Lạt tổ chức định kỳ 2 năm một lần với không gian hoa nghệ thuật quanh Hồ Xuân Hương và tuần lễ văn hóa trà.", image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Thời gian: Tháng 12 (2 năm/lần)", "Địa điểm: Quảng trường Lâm Viên", "Nguồn: UBND Tỉnh Lâm Đồng"] },
-                { id: "lh-2", section: "festival", title: "Không Gian Văn Hóa Cồng Chiêng Tây Nguyên", category: "Di sản văn hóa", location: "Xã Lát, Lạc Dương", shortDesc: "Di sản văn hóa phi vật thể với tiếng chiêng, điệu múa xoang bên bếp lửa.", fullDesc: "Đêm giao lưu cồng chiêng giúp du khách hòa mình vào âm hưởng núi rừng Tây Nguyên và thưởng thức rượu cần.", image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Thời gian: 18:30 - 21:00 hàng tối", "Địa điểm: Chân núi Langbiang", "Nguồn: Phòng Văn hóa Lạc Dương"] },
-                { id: "at-1", section: "food", title: "Lẩu Gà Lá É", category: "Món chính", location: "TP. Đà Lạt", shortDesc: "Nước dùng ngọt thanh hòa quyện vị thơm nồng nhẹ của lá é, măng tươi và thịt gà đồi.", fullDesc: "Món ăn làm ấm lòng du khách trong những buổi tối se lạnh tại Đà Lạt.", image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Phân loại: Món chính", "Giá tham khảo: 250.000đ - 350.000đ"] },
-                { id: "at-2", section: "food", title: "Bánh Căn Đà Lạt", category: "Món nhẹ", location: "Tăng Bạt Hổ, Nhà Chung", shortDesc: "Bánh bột gạo nướng giòn trong khuôn đất nung ăn kèm nước mắm xíu mại nóng hổi.", fullDesc: "Bánh căn nhân trứng cút, trứng gà nướng bếp than hồng ăn kèm xíu mại béo ngậy.", image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Phân loại: Món nhẹ", "Giá tham khảo: 30.000đ - 50.000đ"] },
-                { id: "at-3", section: "food", title: "Trà Oolong & Trà Bảo Lộc", category: "Đồ uống", location: "Bảo Lộc & Cầu Đất", shortDesc: "Thức uống tinh túy từ vùng cao nguyên trà nổi tiếng với hương thơm thanh khiết.", fullDesc: "Trà Bảo Lộc và Cầu Đất có chất lượng hảo hạng nhờ khí hậu mát mẻ quanh năm.", image: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Phân loại: Đồ uống", "Nhiệt độ pha: 85°C - 90°C"] },
-                { id: "at-4", section: "food", title: "Hồng Treo Gió & Mứt Đặc Sản", category: "Đặc sản làm quà", location: "Chợ Đà Lạt", shortDesc: "Hồng giòn sấy khô tự nhiên bằng gió cao nguyên, dẻo mềm và tươm mật ngọt lịm.", fullDesc: "Hồng treo gió công nghệ Nhật Bản giữ trọn hương vị tự nhiên, thích hợp làm quà biếu.", image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=800&q=80", usefulInfo: ["Phân loại: Đặc sản làm quà", "Mùa hồng: Tháng 9 - Tháng 12"] }
-            ];
+  
 
-            function norm(s) { return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d").trim(); }
-            let q = "", df = "all", ff = "all";
-
-            window.openDetailModal = function(id) {
-                const item = fallbackData.find(d => d.id === id);
-                if (!item) return;
-                document.getElementById("detailModalLabel").textContent = item.title;
-                document.getElementById("detailImg").src = item.image;
-                document.getElementById("detailBadge").textContent = item.category + " • " + item.location;
-                document.getElementById("detailTitle").textContent = item.title;
-                document.getElementById("detailDesc").textContent = item.fullDesc;
-                document.getElementById("detailUsefulInfo").innerHTML = item.usefulInfo.map(i => `<li class="mb-2"><i class="bi bi-check2-circle text-leaf me-1"></i> ${i}</li>`).join("");
-                const rels = fallbackData.filter(d => d.section === item.section && d.id !== item.id);
-                document.getElementById("detailRelatedList").innerHTML = rels.map(r => `<button type="button" class="btn btn-outline-secondary text-start p-2 d-flex align-items-center gap-2" onclick="openDetailModal('${r.id}')"><img src="${r.image}" class="rounded" style="width:48px;height:48px;object-fit:cover;"><div><div class="fw-bold text-pine small">${r.title}</div><small class="text-muted">${r.category}</small></div></button>`).join("");
-                bootstrap.Modal.getOrCreateInstance(document.getElementById("detailModal")).show();
-            };
-
-            function draw(cid, list, col) {
-                const el = document.getElementById(cid);
-                if (!list.length) { el.innerHTML = `<div class="col-12"><div class="alert alert-light border text-center py-4 text-muted">Không tìm thấy nội dung phù hợp.</div></div>`; return; }
-                el.innerHTML = list.map(i => `<div class="${col}"><div class="card h-100 border-0 shadow-sm rounded-3 hover-card" onclick="openDetailModal('${i.id}')"><img src="${i.image}" class="card-img-top card-img-top-fixed rounded-top-3" alt="${i.title}"><div class="card-body d-flex flex-column"><div class="d-flex justify-content-between align-items-center mb-2"><span class="badge bg-leaf">${i.category}</span><small class="text-muted"><i class="bi bi-geo-alt"></i> ${i.location}</small></div><h5 class="card-title fw-bold text-pine">${i.title}</h5><p class="card-text text-secondary small flex-grow-1">${i.shortDesc}</p><div class="mt-2 text-end"><span class="text-pine fw-semibold small">Xem chi tiết <i class="bi bi-arrow-right"></i></span></div></div></div></div>`).join("");
-            }
-
-            function render() {
-                const nq = norm(q);
-                const match = i => !nq || norm(`${i.title} ${i.shortDesc} ${i.location} ${i.category}`).includes(nq);
-                draw("destinationsContainer", fallbackData.filter(i => i.section === "destination" && (df === "all" || i.category === df) && match(i)), "col-md-6 col-lg-3");
-                draw("festivalsContainer", fallbackData.filter(i => i.section === "festival" && match(i)), "col-md-6");
-                draw("foodContainer", fallbackData.filter(i => i.section === "food" && (ff === "all" || i.category === ff) && match(i)), "col-md-6 col-lg-3");
-            }
-
-            document.addEventListener("DOMContentLoaded", () => {
-                render();
-                document.getElementById("globalSearchInput").addEventListener("input", e => { q = e.target.value; render(); });
-                document.getElementById("clearSearchBtn").addEventListener("click", () => { document.getElementById("globalSearchInput").value = ""; q = ""; render(); });
-                document.querySelectorAll("#destinationFilters button").forEach(b => b.addEventListener("click", () => {
-                    document.querySelectorAll("#destinationFilters button").forEach(x => { x.classList.remove("btn-pine", "active"); x.classList.add("btn-outline-pine"); });
-                    b.classList.remove("btn-outline-pine"); b.classList.add("btn-pine", "active"); df = b.dataset.filter; render();
-                }));
-                document.querySelectorAll("#foodFilters button").forEach(b => b.addEventListener("click", () => {
-                    document.querySelectorAll("#foodFilters button").forEach(x => { x.classList.remove("btn-pine", "active"); x.classList.add("btn-outline-pine"); });
-                    b.classList.remove("btn-outline-pine"); b.classList.add("btn-pine", "active"); ff = b.dataset.filter; render();
-                }));
-            });
-        }
-    </script>
 </body>
 </html>

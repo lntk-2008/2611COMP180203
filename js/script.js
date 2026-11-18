@@ -7,7 +7,7 @@ const siteData = [
         location: "Trung tâm TP. Đà Lạt",
         shortDesc: "Trái tim xanh thơ mộng giữa lòng thành phố ngàn hoa với hàng thông và vườn hoa bao quanh.",
         fullDesc: "Hồ Xuân Hương là hồ nhân tạo rộng khoảng 32 ha nằm ngay trung tâm thành phố Đà Lạt. Đây là địa điểm lý tưởng để tản bộ, đạp vịt, ngắm hoàng hôn và tận hưởng không khí trong lành đặc trưng của cao nguyên Lâm Viên.",
-        image: "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=800&q=80",
+        image: "images/ho-xuan-huong-da-lat-1.jpg",
         usefulInfo: [
             "Giờ mở cửa: Tự do cả ngày",
             "Chi phí: Miễn phí tham quan",
@@ -23,7 +23,7 @@ const siteData = [
         location: "Phường 10, TP. Đà Lạt",
         shortDesc: "Nhà ga xe lửa cổ kính nhất Đông Dương với kiến trúc ba mái chóp mô phỏng đỉnh Langbiang.",
         fullDesc: "Được xây dựng từ năm 1932 bởi kiến trúc sư người Pháp, Ga Đà Lạt mang đậm dấu ấn kiến trúc Art Deco kết hợp nhà rông Tây Nguyên. Du khách có thể trải nghiệm tuyến tàu hỏa cổ chạy đến Trại Mát.",
-        image: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=800&q=80",
+        image: "images/images.jpg",
         usefulInfo: [
             "Giờ mở cửa: 07:30 - 17:00 hàng ngày",
             "Giá vé vào cổng: Khoảng 5.000đ - 50.000đ",
@@ -39,7 +39,7 @@ const siteData = [
         location: "TP. Bảo Lộc, Lâm Đồng",
         shortDesc: "Ngọn thác hùng vĩ cao hơn 60m ẩn mình giữa khu rừng nguyên sinh xanh mát.",
         fullDesc: "Khu du lịch sinh thái Thác Dambri nổi bật với dòng thác trắng xóa đổ từ độ cao 60m. Ngoài chiêm ngưỡng thác nước, du khách còn được trải nghiệm xe trượt ống xuyên rừng và khám phá văn hóa bản địa Châu Mạ.",
-        image: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (1).jpg",
         usefulInfo: [
             "Giờ mở cửa: 07:00 - 17:00",
             "Khoảng cách: Cách trung tâm Bảo Lộc 18km",
@@ -55,7 +55,7 @@ const siteData = [
         location: "Huyện Lạc Dương, Lâm Đồng",
         shortDesc: "Nóc nhà của Đà Lạt với trải nghiệm đi xe jeep, săn mây và ngắm toàn cảnh Suối Vàng.",
         fullDesc: "Nằm cách trung tâm Đà Lạt 12km về phía Bắc, Langbiang gắn liền với truyền thuyết tình yêu lãng mạn của chàng K'lang và nàng H'biang. Đây là điểm trekking và ngắm toàn cảnh cao nguyên tuyệt đẹp.",
-        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (2).jpg",
         usefulInfo: [
             "Độ cao: 2.167m so với mực nước biển",
             "Hoạt động: Trekking, đi xe jeep, giao lưu cồng chiêng",
@@ -71,7 +71,7 @@ const siteData = [
         location: "TP. Đà Lạt & TP. Bảo Lộc",
         shortDesc: "Sự kiện văn hóa - du lịch lớn nhất tỉnh tôn vinh nghề trồng hoa và trà truyền thống.",
         fullDesc: "Festival Hoa Đà Lạt được tổ chức định kỳ 2 năm một lần với nhiều không gian hoa nghệ thuật quanh Hồ Xuân Hương, diễu hành xe hoa, triển lãm sinh vật cảnh và tuần lễ văn hóa trà Bảo Lộc.",
-        image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (3).jpg",
         usefulInfo: [
             "Thời gian: Tháng 12 (định kỳ 2 năm/lần)",
             "Địa điểm chính: Quảng trường Lâm Viên & Hồ Xuân Hương",
@@ -87,7 +87,7 @@ const siteData = [
         location: "Xã Lát, Huyện Lạc Dương",
         shortDesc: "Di sản văn hóa phi vật thể đại diện của nhân loại với tiếng chiêng, điệu múa xoang bên bếp lửa.",
         fullDesc: "Du khách tham gia đêm giao lưu cồng chiêng sẽ được hòa mình vào âm hưởng núi rừng Tây Nguyên, thưởng thức rượu cần và nghe già làng kể sử thi của người K'Ho bản địa.",
-        image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
+        image: "images/521-kon_tum-phuocsonkt@gmailcom-le_hoi_mung_lua_moi.jpg",
         usefulInfo: [
             "Thời gian: Các buổi tối từ 18:30 - 21:00",
             "Địa điểm: Dưới chân núi Langbiang",
@@ -103,7 +103,7 @@ const siteData = [
         location: "Phổ biến khắp TP. Đà Lạt",
         shortDesc: "Nước dùng ngọt thanh hòa quyện vị thơm nồng nhẹ của lá é, măng tươi và thịt gà đồi săn chắc.",
         fullDesc: "Lẩu gà lá é là món ăn làm ấm lòng mọi du khách trong những buổi tối se lạnh tại Lâm Đồng. Lá é nhúng chín tới có vị bùi bùi, hơi cay nhẹ rất kích thích vị giác.",
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (4).jpg",
         usefulInfo: [
             "Phân loại: Món chính",
             "Mức giá tham khảo: 250.000đ - 350.000đ/nồi",
@@ -118,7 +118,7 @@ const siteData = [
         location: "Đường Tăng Bạt Hổ, Nhà Chung",
         shortDesc: "Những chiếc bánh bột gạo nướng giòn trong khuôn đất nung ăn kèm nước mắm xíu mại nóng hổi.",
         fullDesc: "Bánh căn có nhân trứng cút, trứng gà hoặc hải sản, nướng trên bếp than hồng. Điểm nhấn là chén nước chấm hành phi cùng viên xíu mại mềm thơm béo ngậy.",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (5).jpg",
         usefulInfo: [
             "Phân loại: Món nhẹ / Ăn sáng",
             "Mức giá tham khảo: 30.000đ - 50.000đ/phần",
@@ -133,7 +133,7 @@ const siteData = [
         location: "TP. Bảo Lộc & Cầu Đất",
         shortDesc: "Thức uống tinh túy từ vùng cao nguyên trà nổi tiếng với hương thơm thanh khiết, hậu vị ngọt.",
         fullDesc: "Nhờ thổ nhưỡng và khí hậu mát mẻ quanh năm, trà Bảo Lộc và trà Cầu Đất có chất lượng hảo hạng, giúp thư giãn tinh thần và tốt cho sức khỏe.",
-        image: "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (6).jpg",
         usefulInfo: [
             "Phân loại: Đồ uống",
             "Nhiệt độ pha chuẩn: 85°C - 90°C",
@@ -148,7 +148,7 @@ const siteData = [
         location: "Chợ Đà Lạt & Các cơ sở vườn hồng",
         shortDesc: "Hồng giòn được sấy khô tự nhiên bằng gió cao nguyên, dẻo mềm và tươm mật ngọt lịm.",
         fullDesc: "Áp dụng công nghệ sấy treo gió Nhật Bản, những quả hồng Đà Lạt giữ nguyên hương vị tự nhiên, không chất bảo quản, là món quà biếu ý nghĩa sau mỗi chuyến đi.",
-        image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=800&q=80",
+        image: "images/images (7).jpg",
         usefulInfo: [
             "Phân loại: Đặc sản làm quà",
             "Bảo quản: Ngăn mát hoặc ngăn đông tủ lạnh để giữ độ dẻo",
